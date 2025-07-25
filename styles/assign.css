@@ -19,7 +19,7 @@
 }
 .title-fonts{
   font-family: "Noto Serif", serif;
-  font-size: 65px;
+  font-size: 64px;
   font-weight: bold;
   font-style: normal;
 }
@@ -60,6 +60,33 @@
     color: #000000;
 }
 
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:50px;
+}
+.banner-content{
+ /* margin: 150px; */
+ margin-top: 20px;
+ margin-right: 20px;
+}
+.banner-title{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.hero-img{
+    /* margin: 150px; */
+}
+.title-span{
+    color: #E95A08;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-right: 20px;
+}
 /* Laptop/ tablet */
 @media (max-width:992px) {
     .navbar{
@@ -77,4 +104,14 @@
 .nav-links #home, #shop, #about-us{
     visibility: hidden;
 }
+.banner{
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.hero-img{
+    display: block;
+    align-items: center;
+    margin: 0px;
+}
+
 }
