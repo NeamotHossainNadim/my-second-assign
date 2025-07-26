@@ -243,7 +243,7 @@
     font-weight: bold;  
     color: #FFFFFF;
     text-align: center;
-    padding-top: 130px;
+    padding-top: 80px;
 }
 .input-btn{
    text-align: center;
@@ -264,18 +264,25 @@
 
 /* footer section */
 .footer{
-    
+    display: flex;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 55px;
 }
 .footer-logo-img{
 
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .footer-logo-descrip{
     margin: 20px 40px;
 }
  /* footer text  */
  .footer-text{
+    margin-left: 60px;
  }
 .footer-text-item1 ul li{
     list-style: none;
@@ -328,6 +335,12 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .plants-lover-container{
+    flex-direction: column;
+}
+.join-brunch{
+   
+}
+.footer, .footer-text{
     flex-direction: column;
 }
 
