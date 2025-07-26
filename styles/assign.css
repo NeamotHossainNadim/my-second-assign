@@ -230,9 +230,15 @@
 /* Join Brunch Section */
 .join-section{
     background-image: url(../assets/news-letter-bg.png);
-    width: 1240px;
+    /* width: 1240px;
     height: 300px;
-    margin: 0 auto;
+    margin: 0 auto; */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center:
 }
 .join-brunch{
     
@@ -243,13 +249,12 @@
     font-weight: bold;  
     color: #FFFFFF;
     text-align: center;
-    padding-top: 80px;
 }
 .input-btn{
    text-align: center;
    width: 550px;
    height: 40px;
-   margin-left: 23%;
+   margin-left: - 23%;
 
 }
 
@@ -331,14 +336,30 @@
    margin: 0 auto;
 }
 .card-container{
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    max-width: fit-content;
 }
 .plants-lover-container{
     flex-direction: column;
 }
+.latest-img-content{
+    flex-direction: column;
+}
+.join-section{
+    height: 60vh;
+    padding: 10px;
+}
 .join-brunch{
-   
+    max-width: fit-content;
+}
+.join-brunch-title{
+    font-size: 1.25rem;
+    margin: 0 auto;
+}
+.input-btn{
+   text-align: center;
+  max-width: fit-content;
+
 }
 .footer, .footer-text{
     flex-direction: column;
