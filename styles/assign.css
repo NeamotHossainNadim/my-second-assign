@@ -151,8 +151,153 @@
     margin-left: 40%;
     margin-bottom: -13%;
 }
+/* Latest Deals Section  */
+.latest-deals-content{
+    text-align: center;
+}
+.latest-title{
+    font-family: "Noto Serif", serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.latest-img-card{
+    margin-inline-start: -350px;
+    margin-bottom: 50px;
+}
+.img-content-1{
+    background-image: url(../assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 350px;
+    border-radius:12px;
+}
 
+.img-content-2{
+    background-image: url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 350px;
+    border-radius:12px;
+    margin-top: -20px;
+}
+.img-content-title{
+    font-family: "Noto Serif", serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 60px;
+}
+.img-content-subtitle{
+    font-size: 1rem;
+    font-weight:600;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 10px;
+}
+.latest-img-content{
+    margin-left: 38%;
+    margin-top: -38%;
+    margin-bottom: 50px;
+}
+.img-content-3{
+    background-image: url(../assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    width: 710px;
+    border-radius: 20px;
+}
+.img-content-title3{
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 130px;
+}
+.img-content-subtitle3{
+    font-size: 1.8rem;
+    font-weight:500;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 10px;
+}
+ 
+/* Join Brunch Section */
+.join-section{
+    background-image: url(../assets/news-letter-bg.png);
+    width: 1240px;
+    height: 300px;
+    margin: 0 auto;
+}
+.join-brunch{
+    
+}
+.join-brunch-title{
+    font-family: "Noto Serif", serif;
+    font-size: 3rem;
+    font-weight: bold;  
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 130px;
+}
+.input-btn{
+   text-align: center;
+   width: 550px;
+   height: 40px;
+   margin-left: 23%;
 
+}
+
+.subscribe-btn{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 15px;
+    /* margin-left: 100px; */
+}
+
+/* footer section */
+.footer{
+    
+}
+.footer-logo-img{
+
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.footer-logo-descrip{
+    margin: 20px 40px;
+}
+ /* footer text  */
+ .footer-text{
+ }
+.footer-text-item1 ul li{
+    list-style: none;
+    margin: 20px;
+}
+.footer-text-item1 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer-text-item2 ul li{
+    list-style: none;
+    margin: 20px;
+}
+.footer-text-item2 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.footer-icon img{
+
+   margin: 10px;
+}
 /* Laptop/ tablet */
 @media (max-width:992px) {
     .navbar{
